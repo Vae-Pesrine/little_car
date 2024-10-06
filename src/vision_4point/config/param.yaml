@@ -1,0 +1,8 @@
+# 参数列表
+# camera_ip : rtsp://admin:@192.168.1.173
+# camera_ip : rtsp://admin:123456ab@192.168.43.106
+camera_ip: 0
+is_show : True
+is_calibration : false
+# camera_ip : /home/tjurm/Desktop/ros_learn/src/radar_vision/assets/test.MP4
+is_network : True

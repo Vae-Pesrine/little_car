@@ -1,0 +1,10 @@
+<launch>
+  <!-- 加载参数至参数服务器，便于各个节点调用! -->
+  <rosparam file="$(find vision_4point)/config/param.yaml" command="load" />
+
+  <!-- 启动各个节点 -->
+  <node pkg="vision_4point" type="detector_node" name="detector_node" output="screen"/>
+  <node pkg="vision_4point" type="get_image_node" name="get_image_node"/>
+  <!-- <node pkg="vision_4point" type="param_node" name="param_node"/> -->
+  
+</launch>

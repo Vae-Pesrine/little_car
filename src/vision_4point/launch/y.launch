@@ -1,0 +1,7 @@
+<launch>
+  <!-- 启动各个节点 -->
+  <node pkg="vision_4point" type="control_node" name="control_node" output="screen"/>
+  <!-- <node pkg="vision_4point" type="get_image_node" name="get_image_node"/> -->
+  <!-- <node pkg="vision_4point" type="param_node" name="param_node"/> -->
+  
+</launch>
